@@ -1,0 +1,1 @@
+sh DeployIntegratedMapPlugin.sh && cd "../../trunk/calico3client-bugfixes" && ant clean && ant run

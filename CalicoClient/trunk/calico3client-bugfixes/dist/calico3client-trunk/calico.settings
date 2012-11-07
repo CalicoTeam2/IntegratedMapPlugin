@@ -1,0 +1,12 @@
+#calico.settings
+<<<<<<< HEAD
+#Tue Nov 06 20:53:03 PST 2012
+=======
+#Sat Oct 27 00:22:21 PDT 2012
+>>>>>>> 09700c28e7b8d6603cc25422bef0d392d71652d8
+resw=0
+port=27000
+password=
+resh=0
+host=localhost
+username=Bryan Lam
