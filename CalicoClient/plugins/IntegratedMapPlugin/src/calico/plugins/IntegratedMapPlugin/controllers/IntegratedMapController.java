@@ -53,28 +53,20 @@ public class IntegratedMapController {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-<<<<<<< HEAD
 		
 		double tempLongitudeStart = Double.parseDouble(JOptionPane.showInputDialog("Enter starting Longitude"));
 		double tempLongitudeEnd = Double.parseDouble(JOptionPane.showInputDialog("Enter ending Longitude"));
 		double tempLatitudeStart = Double.parseDouble(JOptionPane.showInputDialog("Enter starting Latitude"));
 		double tempLatitudeEnd = Double.parseDouble(JOptionPane.showInputDialog("Enter ending Latitude"));
 		CGroup group = new IntegratedMap(uuid, cuuid, mapImage, tempLongitudeStart, tempLongitudeEnd, tempLatitudeStart, tempLatitudeEnd);
-		
-=======
-		double tempLongitude = Double.parseDouble(JOptionPane.showInputDialog("Enter longitude"));
-		double tempLatitude = Double.parseDouble(JOptionPane.showInputDialog("Enter latitude"));
-		CGroup group = new IntegratedMap(uuid, cuuid, mapImage, tempLongitude, tempLatitude);
->>>>>>> 09700c28e7b8d6603cc25422bef0d392d71652d8
+
 //		group.setShapeToRoundedRectangle(bounds, 0);
 //		JOptionPane.showMessageDialog(null, "Fresh ocean pines");
 
 		//create the scrap
 		no_notify_create_custom_scrap_bootstrap(uuid, cuuid, group, p, optText);
-<<<<<<< HEAD
 		CGroupController.no_notify_move(uuid, 400, 100);
-=======
->>>>>>> 09700c28e7b8d6603cc25422bef0d392d71652d8
+
 	}
 	
 
@@ -83,10 +75,7 @@ public class IntegratedMapController {
 	 * UTILITY METHODS
 	 *************************************************/		
 	public static void no_notify_create_custom_scrap_bootstrap(long uuid, long cuuid, CGroup group, Polygon p, String optText){
-<<<<<<< HEAD
-=======
-//		JOptionPane.showMessageDialog(null, "Penis");
->>>>>>> 09700c28e7b8d6603cc25422bef0d392d71652d8
+
 		no_notify_start(uuid, cuuid, 0l, true, group);
 		CGroupController.setCurrentUUID(uuid);
 		create_custom_shape(uuid, p);

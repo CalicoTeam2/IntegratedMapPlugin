@@ -42,12 +42,7 @@ public class CalicoIconManager
 		
 		// Load Up the default parts
 		iconNotFound = iconTheme.getProperty("notfound","cross.png");
-<<<<<<< HEAD
 
-=======
-		JOptionPane.showMessageDialog(null, "Penis");
-		
->>>>>>> 09700c28e7b8d6603cc25422bef0d392d71652d8
 		// Show some blip about it
 		logger.info("Loading Icon Theme: "+iconTheme.getProperty("iconset.name")+" by "+iconTheme.getProperty("author.name")+" ("+iconTheme.getProperty("author.email")+")");
 		
